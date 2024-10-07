@@ -1,0 +1,181 @@
+/* ベーススタイルの修正 */
+body {
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E1; /* 背景色を明るいオレンジ系に変更 */
+    color: #5D4037;
+    line-height: 1.6;
+}
+
+/* ヘッダーのスタイルをオレンジ系に */
+header {
+    background-color: #FFA726; /* オレンジ色に設定 */
+    color: white;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    font-weight:bold;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white; /* リンクの色を白に変更 */
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FFCC80; /* ホバー時の色を明るいオレンジに */
+}
+
+/* ロゴ画像のコンテナに左右の余白と中央揃えを設定 */
+.logo-container {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding-left: 20px; /* 左右に余白を追加 */
+    padding-right: 20px;
+}
+
+.logo-container img {
+    width: 65%; /* ページ横幅の50%に設定 */
+    margin: 25px 0; /* 上下に20pxの余白を追加 */
+}
+
+/* 各セクションに左右の余白を設定 */
+.content {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+/* カバー画像 */
+.cover-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('カバー画像のURL');
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    position: relative;
+}
+
+/* 見出しのデザインをかわいいテーマに変更 */
+h2 {
+    color: #FF7043; /* オレンジ色に変更 */
+    border-bottom: 2px dashed #FFB74D; /* オレンジ系のダッシュライン */
+    padding-bottom: 0.5em;
+    margin-top: 0em;
+}
+
+/* 各セクションのスタイル */
+section {
+    margin-bottom: 2.5em;
+    padding: 2em;
+    background-color: #FFE0B2; /* 明るいオレンジの背景色 */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* ボタンスタイルをオレンジに */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7043; /* オレンジ色に設定 */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #FF5722; /* ボタンホバー時の色 */
+    transform: scale(1.05); /* ボタンを拡大する */
+}
+
+/* フッターのデザインもオレンジ系に */
+footer {
+    background-color: #FF7043;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    border-top: 5px solid #FFB74D;
+}
+.labo-logo-container img {
+    width: 10%; /* ページ横幅の50%に設定 */
+    margin: 20px 0; /* 上下に20pxの余白を追加 */
+}
+
+.download {
+    text-align: center;
+   
+}
+
+.download img {
+    width: 10%; /* ページ横幅の50%に設定 */
+    margin: 20px 0; /* 上下に20pxの余白を追加 */   
+
+}
+
+/* QRコード生成ボタンのスタイル */
+#generate-qr {
+    padding: 10px 20px;
+    background-color: #FF7043; /* オレンジ色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#generate-qr:hover {
+    background-color: #FF5722; /* ボタンホバー時 */
+    transform: scale(1.05);
+}
+
+/* QRコード生成後のリンクスタイル */
+#download-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF7043;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#download-link:hover {
+    background-color: #FF5722;
+    transform: scale(1.05);
+    
+}
+
+#spreadsheet-url {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #FFB74D;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    
+}
+
+#qrcode-container {
+    margin-top: 20px;
+}

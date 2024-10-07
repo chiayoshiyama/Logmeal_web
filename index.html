@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ろぐみいる</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#top">TOP</a></li>
+                <li><a href="#app-overview">ろぐみいるって？</a></li>
+                <li><a href="#background">背景と目的</a></li>
+                <li><a href="#how-to-use">使い方</a></li>
+                <li><a href="#download">ダウンロード</a></li>
+                <li><a href="#other">その他</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="logo-container">
+        <img src="img/logmeal_logo.png" alt="ろぐみいるのロゴ">
+    </div>
+
+    <div class="content">
+        <section id="app-overview">
+            <h2>ろぐみいるって？</h2>
+            <p>ろぐみいるは、小学校における日々の食育をより簡単で効果的に行うことを手助けするiPadアプリケーションです。
+                毎日の給食を食べる際に、少しだけ意識して味わって食べることで、子どもたちの食事への関心を引き出します。
+                給食の感想を書いて、感じたことを言葉にすることを繰り返すことで、食事への関心が徐々に高まり、
+                将来の食生活改善への第一歩を踏み出す手助けをします。</p>
+        </section>
+
+        <section id="movieview">
+            <h2>動画を入れる</h2>
+            
+        </section>
+
+        <section id="background">
+            <h2>開発の背景と目的</h2>
+            <p>現在、不健康な食生活を送る人や、それに伴う生活習慣病の患者が著しく増加しています。
+                健康的な生活の基盤となる食習慣は、幼少期に受けた食育の影響を強く受けると言われています。
+                そのため、小学校教育における給食指導や食育は、より力を入れて取り組むべき課題です。</p>
+
+            <p>しかし、現代の小学校教諭は多忙な職務に追われ、子どもたちへの給食指導や食育に十分な時間を割けない現状があります。
+                また、専門的な知識が必要で、毎日継続して指導を行うことが教師の負担となるケースもあります。
+                これらの問題を解決するために、私たちは「ろぐみいる」を開発しました。</p>
+
+            <p>本アプリでは、将来の健康的な食生活を送るための第一歩として、味覚教育に基づいた食育方法を採用しています。
+                この方法は「味わいカード」と呼ばれるもので、千葉県君津市立周西小学校の佐藤孝子先生が考案し、実施しています。
+                給食の感想を五感で表現することで、子どもたちの食事に対する興味を引き出し、食育の一環として役立てることを目指しています。</p>
+
+            <p>「ろぐみいる」は、この食育方法をiPad用アプリに昇華させ、教師にとってもより簡単で効果的な食育方法を提供します。</p>
+
+        </section>
+
+        <section id="how-to-use">
+            <h2>アプリの使い方</h2>
+            <h3>1. 給食の感想の書き方</h3>
+            <p>給食を食べて感じたことを素直に書きましょう。文字数にも表現方法にも制約はありません。最初は「美味しかった」だけでもいいでしょう。味わって食べることに少しずつ挑戦していきましょう。</p>
+
+            <h3>2. 育成ゲームの楽しみ方</h3>
+            <p>給食の感想を記録していくと、経験値を獲得することができます。記録を続けていくとキャラクターの成長した姿を見ることができるでしょう。頑張って記録を続けてみましょう。最終進化にまで達すると、キャラクターがいろんな動きをするようになります。記録で貯めたポイントを使用して、キャラクターのいろんな姿を見てみましょう。
+            </p>
+
+            <h3>3. 給食の記録ファイルの共有方法</h3>
+            <p>記録した感想は端末に保存したり、他人に共有することができます。学校で使用している授業支援アプリケーションを活用することで、クラス全員の感想を回収することも可能です。出力方法はPDFファイルとCSVファイルの2種類から選ぶことができます。必要に応じてご利用ください。
+            </p>
+
+            <h3>4. アプリに今日の献立を入力する方法</h3>
+            <p>給食の記録ページには、その日の献立を入力する欄が用意されています。
+                子どもたちがキーボードを使って自分で入力することもできますが、毎日の献立をすべて記録するのは少々手間がかかります。
+                そこで、GoogleスプレッドシートとQRコードを使って、簡単に毎日の献立を入力できる機能を用意しています。</p>
+
+            <p>この機能を使うことで、タイピングが苦手な子どもでも簡単にメニューを入力できるだけでなく、
+                給食の献立に関連する一言メモやコラムも一緒に入力することが可能です。
+                また、毎月の献立に付属している内容をアプリ内に保存し、いつでも見返すことができます。</p>
+
+            <p>これにより、子どもたちが食に関する知識や関心を定着させ、食育に役立てることができるでしょう。</p>
+
+
+            <p>次に、GoogleスプレッドシートとQRコードを使って、今日の献立をアプリに簡単に入力する方法を説明します。</p>
+
+            <h4>今日の献立を入力することのメリット</h4>
+            <p>献立を入力することで、以下のような利点があります：</p>
+            <ul>
+                <li>児童が事前に今日の給食メニューを確認できる</li>
+                <li>アレルギー情報を含めることで、安全な食事提供をサポート</li>
+                <li>栄養価情報を表示し、バランスの取れた食事への意識を高める</li>
+                <li>味わいカードの記入時に、正確なメニュー名を参照できる</li>
+                <li>過去の献立履歴を簡単に確認でき、食育指導に活用できる</li>
+            </ul>
+
+            <h4>手順1: スプレッドシートのフォーマットをダウンロード</h4>
+            <p>以下のボタンをクリックして、献立入力用のスプレッドシートフォーマットをコピーしてください。</p>
+            <a href="https://docs.google.com/spreadsheets/d/1HOp-tfwjtK06_zB5OUZj9kuRkH1JF4b0dhn4erDfOyc/copy"
+                target="_blank" class="button">フォーマットをコピー</a>
+
+            <h4>手順2: フォーマットに献立情報を記入</h4>
+            <p>コピーしたスプレッドシートに、今日の献立情報を記入してください。列見出しに応じた情報を必要な分だけ入力してください。</p>
+
+
+            <h2>QRコード生成</h2>
+            <h4>手順3: QRコードの生成</h4>
+            <p>記入したGoogle SpreadsheetのURLを入力して、QRコードを生成します。</p>
+            <input type="text" id="spreadsheet-url" placeholder="記入したGoogle SpreadsheetのURLを入力">
+            <button id="generate-qr">QRコード生成</button>
+            <div id="qrcode-container"></div>
+            <a id="download-link" style="display: none;">QRコードをダウンロード</a>
+
+
+
+            <h4>手順4: アプリでQRコードをスキャン</h4>
+            <p>生成されたQRコードをアプリでスキャンすることで、今日の献立情報がアプリに反映されます。これにより、児童や教職員が簡単に献立情報を確認できるようになります。</p>
+        </section>
+
+       
+
+        <section id="other">
+            <h2>その他</h2>
+            <p>熊本市立小学校でのご利用を希望の際は、配布タブレット端末の「セルフサービス」からインストールしてください。</>
+        </section>
+
+        <div class=="download">
+            <a href="https://apps.apple.com/jp/app/%E3%82%8D%E3%81%90%E3%81%BF%E3%81%84%E3%82%8B/id6575360280"
+                target="_blank" rel="noopener noreferrer">
+                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1690329600"
+                    alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="labo-logo-container">
+            <img src="img/Iimulab_logo.png" alt="組織アイコン" class="org-icon">
+            <p>公立大学法人熊本県立大学 総合管理学部 総合管理学科 飯村研究室</p>
+            <p>〒862-8502 熊本市東区月出3丁目1番100号</p>
+            <p>©︎ 2024 Iimura Laboratory, Prefectural University of Kumamoto</p>
+            
+        </div>
+    </footer>
+
+    <script>
+        // スムーズスクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                const offset = 70;  // ヘッダーの高さ分オフセット
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
